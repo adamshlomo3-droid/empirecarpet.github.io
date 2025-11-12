@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empire Carpet and Upholstery | Professional Cleaning NYC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      color: #333;
+      background-color: #fafafa;
+      scroll-behavior: smooth;
+    }
+    header {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    header h1 {
+      color: #8a6a2f;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      margin: 0.5rem 0;
+    }
+    header p {
+      color: #555;
+      margin: 0.2rem 0;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1s ease-out forwards;
+    }
+    section:nth-of-type(2) { animation-delay: 0.3s; }
+    section:nth-of-type(3) { animation-delay: 0.6s; }
+    section:nth-of-type(4) { animation-delay: 0.9s; }
+
+    @keyframes fadeIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h2 {
+      text-align: center;
+      color: #8a6a2f;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .hero {
+      text-align: center;
+      background-color: #f7f3ef;
+      padding: 2rem 1rem;
+      border-radius: 12px;
+      margin: 2rem auto;
+      max-width: 1000px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .cta {
+      background-color: #8a6a2f;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+    .cta:hover { background-color: #a6853f; }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li::before {
+      content: '✔';
+      color: #8a6a2f;
+      margin-right: 8px;
+    }
+    .gallery, .work {
+      text-align: center;
+    }
+    .gallery img, .work img {
+      width: 100%;
+      max-width: 450px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      margin: 0.5rem;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover, .work img:hover {
+      transform: scale(1.03);
+    }
+    .reviews blockquote {
+      font-style: italic;
+      background-color: #fff;
+      padding: 1rem;
+      border-left: 4px solid #8a6a2f;
+      margin: 1rem 0;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #8a6a2f;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+    }
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+    }
+  </style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎖️</text></svg>">
+</head>
+<body>
+  <header>
+    <h1>EMPIRE CARPET AND UPHOLSTERY</h1>
+    <p>Expert Cleaning for Sofas, Rugs, Mattresses, and Chairs</p>
+    <p>Serving New York City & Long Island</p>
+  </header>
+
+  <div class="hero">
+    <h2>Professional Carpet & Upholstery Cleaning</h2>
+    <p>We make your carpets, rugs, and furniture look brand new again. Fast, affordable, and 5-star rated!</p>
+    <a class="cta" href="tel:8189212536">Call or Text 818-921-2536</a>
+  </div>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Carpet & Rug Cleaning</li>
+      <li>Upholstery & Sofa Cleaning</li>
+      <li>Mattress Cleaning</li>
+      <li>Stain & Odor Removal</li>
+      <li>Pet Treatment & Sanitizing</li>
+      <li>Commercial & Residential Cleaning</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
+    <h2>Before & After Results</h2>
+    <img src="cameraRollTempImage (2).jpg" alt="Before Cleaning" />
+    <img src="cameraRollTempImage (3).jpg" alt="After Cleaning" />
+  </section>
+
+  <section class="work">
+    <h2>Our Work in Action</h2>
+    <img src="IMG_4667 (1).PNG" alt="Empire Carpet Work in Action" />
+  </section>
+
+  <section class="reviews">
+    <h2>What Our Customers Say</h2>
+    <blockquote>“They did an amazing job cleaning my rugs and sectional. Highly recommend, the price was great! Will definitely hire them again next time!”</blockquote>
+    <blockquote>“Had a guy named Adam. Dude cleaned my carpet so well, I was shocked how clean it was. He gave me a discount to clean my couch too. Kid got talent!”</blockquote>
+    <blockquote>“Great service by Adam. He deep cleaned my sectional and rug. Great price and great value.”</blockquote>
+  </section>
+
+  <footer>
+    <p><strong>EMPIRE CARPET AND UPHOLSTERY</strong></p>
+    <p>Call/Text: <a href="tel:8189212536">818-921-2536</a> | Email: <a href="mailto:empirecarpetupholstery@gmail.com">empirecarpetupholstery@gmail.com</a></p>
+    <p><a href="https://www.google.com/search?sca_esv=2286498253ea9ec4&sxsrf=AE3TifM9mYpYu1xaYH70jxpAAVpAI3BzCQ:1762913066978&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E2p5-of9lgdkgJnmiapQNV2XP6GGZcZXYT757anKJwP3m-iHVONDAcVAG6qudSMl3PmF-OAH55yfMw0VtnBoc8K-2DAIUJ2uRhWunmBzXsE9G41mUw%3D%3D&q=Empire+Carpet+And+Upholstery+Reviews&sa=X&ved=2ahUKEwj_5IH5wuuQAxV2jIkEHcGWI1AQ0bkNegQIMxAC&biw=1536&bih=730&dpr=1.25#lrd=0x47b6ef10eafe7141:0xbb202baa82e5879b,1,,,," target="_blank">Read our Google Reviews</a></p>
+    <p>Serving New York City & Long Island</p>
+  </footer>
+
+  <a href="https://wa.me/18189212536" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+</body>
+</html>
